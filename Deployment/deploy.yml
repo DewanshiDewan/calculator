@@ -4,6 +4,9 @@
   vars:
     ansible_python_interpreter: /usr/bin/python3
   tasks:
+    - name: Debugging pull
+      debug:
+              msg: "Debugging pull"
     - name: Pull image
       docker_image:
         name: dewanshi9/calculator:latest
