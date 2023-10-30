@@ -6,7 +6,7 @@
   tasks:
     - name: Debugging pull
       debug:
-              msg: "Debugging pull"
+              msg: "Debugging pull image"
     - name: Pull image
       docker_image:
         name: dewanshi9/calculator:latest
