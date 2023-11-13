@@ -1,2 +1,2 @@
 # calculator
-spe mini project
+SPE Course Mini Project
